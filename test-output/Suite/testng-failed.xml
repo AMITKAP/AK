@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="ie"/>
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="CrossBrowserTesting.VeifyTitle">
+        <methods>
+          <include name="VeriFyTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowserTesting.VeifyTitle -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
