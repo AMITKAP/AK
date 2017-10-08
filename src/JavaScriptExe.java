@@ -16,6 +16,7 @@ public class JavaScriptExe {
 	 ((JavascriptExecutor)fd).executeScript("scroll(0,-8400)");
 	 WebElement el= fd.findElement(By.id("eow-title"));
 	 ((JavascriptExecutor)fd).executeScript("arguments[0].setAttribute('style,'border: solid 2px red;');",el);
+	fd.close();	
 	 
 	}
 
