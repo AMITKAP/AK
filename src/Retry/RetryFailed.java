@@ -26,6 +26,8 @@ public class RetryFailed
 	{    	
 	        System.out.println("Failing Test Case2...");	
 	    	Assert.assertEquals("abc1", "abc", "Failed");
+	    	Assert.assertEquals("abc1", "abc", "Pased");
+	    	
 	    
 	
 	}
